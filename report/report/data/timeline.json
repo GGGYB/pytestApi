@@ -1,0 +1,633 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "dadaxPC008",
+    "children" : [ {
+      "name" : "19320-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "b41208d9ef675e40",
+        "parentUid" : "82d169ee71a5c10c57c23b5a2774abcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655339834,
+          "stop" : 1604655339849,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "2a5b6607804ef3e5",
+        "parentUid" : "82d169ee71a5c10c57c23b5a2774abcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655339749,
+          "stop" : 1604655339770,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "df5448559212bd4d",
+        "parentUid" : "82d169ee71a5c10c57c23b5a2774abcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655339804,
+          "stop" : 1604655339829,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "2a37bebdf02c2930",
+        "parentUid" : "82d169ee71a5c10c57c23b5a2774abcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655339775,
+          "stop" : 1604655339799,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "82d169ee71a5c10c57c23b5a2774abcb"
+    }, {
+      "name" : "13656-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "f658bd85a801015c",
+        "parentUid" : "7dd930f72dc1b2e5b2fac64ae51efac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655189507,
+          "stop" : 1604655189530,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "dcfadf5aee08f6b6",
+        "parentUid" : "7dd930f72dc1b2e5b2fac64ae51efac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655189591,
+          "stop" : 1604655189619,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "393638ab9e551b74",
+        "parentUid" : "7dd930f72dc1b2e5b2fac64ae51efac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655189547,
+          "stop" : 1604655189580,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "5ebf7262513ba100",
+        "parentUid" : "7dd930f72dc1b2e5b2fac64ae51efac1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655189629,
+          "stop" : 1604655189647,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "7dd930f72dc1b2e5b2fac64ae51efac1"
+    }, {
+      "name" : "17104-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "bdadea32000fd819",
+        "parentUid" : "3dca7d1b31e6be47c66c463d7626bb55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655474447,
+          "stop" : 1604655474478,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "1f59ccef330b48b0",
+        "parentUid" : "3dca7d1b31e6be47c66c463d7626bb55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655474567,
+          "stop" : 1604655474593,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "c352520be2d98be4",
+        "parentUid" : "3dca7d1b31e6be47c66c463d7626bb55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655474539,
+          "stop" : 1604655474563,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "211cbd04fde5ef5c",
+        "parentUid" : "3dca7d1b31e6be47c66c463d7626bb55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655474502,
+          "stop" : 1604655474533,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "3dca7d1b31e6be47c66c463d7626bb55"
+    }, {
+      "name" : "15092-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "ebbfa13922b763a3",
+        "parentUid" : "4bae68d8af986ee785d40d76c1f8e919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654461283,
+          "stop" : 1604654461296,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "ec1f74981a577df9",
+        "parentUid" : "4bae68d8af986ee785d40d76c1f8e919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654461419,
+          "stop" : 1604654461427,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "ea9ca035c44506c4",
+        "parentUid" : "4bae68d8af986ee785d40d76c1f8e919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654461450,
+          "stop" : 1604654461459,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "855a9771c595d4d0",
+        "parentUid" : "4bae68d8af986ee785d40d76c1f8e919",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654461435,
+          "stop" : 1604654461442,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "4bae68d8af986ee785d40d76c1f8e919"
+    }, {
+      "name" : "15772-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "8e7783fd022a5cd7",
+        "parentUid" : "93ef3b32fbe4563143b195df949bfb14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653272335,
+          "stop" : 1604653272363,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "ebc68fcb98b8f39b",
+        "parentUid" : "93ef3b32fbe4563143b195df949bfb14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653272398,
+          "stop" : 1604653272423,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "f85948b0084fc75c",
+        "parentUid" : "93ef3b32fbe4563143b195df949bfb14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653272370,
+          "stop" : 1604653272393,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "309d52df80aeb170",
+        "parentUid" : "93ef3b32fbe4563143b195df949bfb14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653272302,
+          "stop" : 1604653272326,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "93ef3b32fbe4563143b195df949bfb14"
+    }, {
+      "name" : "7284-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "5c9d8a04b425f3a7",
+        "parentUid" : "0e0417938fac6d2fe98b1dcded1ffa22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654540347,
+          "stop" : 1604654540366,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "b7ceacbd619d47cc",
+        "parentUid" : "0e0417938fac6d2fe98b1dcded1ffa22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654540286,
+          "stop" : 1604654540306,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "4ec4184a660196a7",
+        "parentUid" : "0e0417938fac6d2fe98b1dcded1ffa22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654540316,
+          "stop" : 1604654540336,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "d3308aa821a20793",
+        "parentUid" : "0e0417938fac6d2fe98b1dcded1ffa22",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654540136,
+          "stop" : 1604654540156,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "0e0417938fac6d2fe98b1dcded1ffa22"
+    }, {
+      "name" : "11660-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "68161e49752f46be",
+        "parentUid" : "b8a1ef4472b6c203cd868fb182702214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655361775,
+          "stop" : 1604655361801,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "70040537888d50e2",
+        "parentUid" : "b8a1ef4472b6c203cd868fb182702214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655361713,
+          "stop" : 1604655361741,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "6f1ae1c2b8d36c69",
+        "parentUid" : "b8a1ef4472b6c203cd868fb182702214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655361664,
+          "stop" : 1604655361695,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "fe85d80c492b4dc8",
+        "parentUid" : "b8a1ef4472b6c203cd868fb182702214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655361746,
+          "stop" : 1604655361771,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "b8a1ef4472b6c203cd868fb182702214"
+    }, {
+      "name" : "12524-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "5a3e1d023c41de69",
+        "parentUid" : "508236f8a5b012a627a1e50e69162509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655442230,
+          "stop" : 1604655442253,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "2608252cc954edd",
+        "parentUid" : "508236f8a5b012a627a1e50e69162509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655442259,
+          "stop" : 1604655442282,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "c68a711b6143c529",
+        "parentUid" : "508236f8a5b012a627a1e50e69162509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655442287,
+          "stop" : 1604655442312,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "10419101fd305cc",
+        "parentUid" : "508236f8a5b012a627a1e50e69162509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604655442193,
+          "stop" : 1604655442216,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "508236f8a5b012a627a1e50e69162509"
+    }, {
+      "name" : "13072-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "4f75f5fdcdfc5043",
+        "parentUid" : "a953bda8c3bcced6f5d6f241d39ad4f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654304285,
+          "stop" : 1604654304295,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "92d95b77c57ab57a",
+        "parentUid" : "a953bda8c3bcced6f5d6f241d39ad4f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654304314,
+          "stop" : 1604654304323,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "be8bd62f8dc350b7",
+        "parentUid" : "a953bda8c3bcced6f5d6f241d39ad4f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654304151,
+          "stop" : 1604654304161,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "a7c67a52bda6c9e3",
+        "parentUid" : "a953bda8c3bcced6f5d6f241d39ad4f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604654304336,
+          "stop" : 1604654304344,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "a953bda8c3bcced6f5d6f241d39ad4f1"
+    }, {
+      "name" : "17820-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "12c03b0f74310c32",
+        "parentUid" : "4f7ca799e8cf6f56335bf52672f13543",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654641638,
+          "stop" : 1604654641658,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "a4530ff41125a3eb",
+        "parentUid" : "4f7ca799e8cf6f56335bf52672f13543",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654641457,
+          "stop" : 1604654641478,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "3419ea445e61fe5b",
+        "parentUid" : "4f7ca799e8cf6f56335bf52672f13543",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654641605,
+          "stop" : 1604654641628,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      }, {
+        "name" : "新增用户",
+        "uid" : "83f2a7fa88efa3f",
+        "parentUid" : "4f7ca799e8cf6f56335bf52672f13543",
+        "status" : "failed",
+        "time" : {
+          "start" : 1604654641669,
+          "stop" : 1604654641693,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{'code':500,'msg':\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'" ]
+      } ],
+      "uid" : "4f7ca799e8cf6f56335bf52672f13543"
+    }, {
+      "name" : "12828-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "ce21e449666719b1",
+        "parentUid" : "63df000c9b275cc561880261b8246869",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653098183,
+          "stop" : 1604653098200,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\n'code': 0, 'data': {'id': 122, 'created_at': 1600163676, 'username': 'dasf', 'role': 3}, 'msg': ''\n}'", "'{\"password\": \"88888888\",\"password_confirm\": \"88888888\",\"username\": \"001\"}'" ]
+      }, {
+        "name" : "test_1",
+        "uid" : "bbbd0f146344d9c3",
+        "parentUid" : "63df000c9b275cc561880261b8246869",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653098207,
+          "stop" : 1604653098207,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63df000c9b275cc561880261b8246869"
+    }, {
+      "name" : "14256-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "5e71b7eec4b8dda6",
+        "parentUid" : "f0494e8cfc89a37e385c986946793a74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653236407,
+          "stop" : 1604653236443,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\n'code': 0, 'data': {'id': 122, 'created_at': 1600163676, 'username': 'dasf', 'role': 3}, 'msg': ''\n}'", "'{\"password\": \"88888888\",\"password_confirm\": \"88888888\",\"username\": \"001\"}'" ]
+      } ],
+      "uid" : "f0494e8cfc89a37e385c986946793a74"
+    }, {
+      "name" : "14604-MainThread",
+      "children" : [ {
+        "name" : "新增用户",
+        "uid" : "9fbc366baa77a035",
+        "parentUid" : "d3acd2d5aff5af83ed9b75505fc8d26c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604653202101,
+          "stop" : 1604653202122,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\n'code': 0, 'data': {'id': 122, 'created_at': 1600163676, 'username': 'dasf', 'role': 3}, 'msg': ''\n}'", "'{\"password\": \"88888888\",\"password_confirm\": \"88888888\",\"username\": \"001\"}'" ]
+      } ],
+      "uid" : "d3acd2d5aff5af83ed9b75505fc8d26c"
+    } ],
+    "uid" : "e00b1b6b23660ba22a3645d1dcab3a19"
+  } ]
+}
