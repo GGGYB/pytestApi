@@ -7,7 +7,6 @@
 封装log方法
 
 """
-
 import logging
 import os
 import time
@@ -48,49 +47,49 @@ def remove_handler(levels):
 
 
 def get_current_time():
-    return time.strftime(MyLog.date, time.localtime(time.time()))
+    return time.strftime('%Y-%m-%d %H:%M:%S')
 
 
 class MyLog:
     path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_file = path+'/log/log.log'
-    err_file = path+'/log/err.log'
+    log_file = path+'/Log/log.log'
+    err_file = path+'/Log/err.log'
     logger.setLevel(LEVELS.get(level, logging.NOTSET))
     create_file(log_file)
     create_file(err_file)
-    date = '%Y-%m-%d %H:%M:%S'
+
 
     handler = logging.FileHandler(log_file, encoding='utf-8')
     err_handler = logging.FileHandler(err_file, encoding='utf-8')
 
     @staticmethod
-    def debug(log_meg):
+    def debug(log_msg):
         set_handler('debug')
-        logger.debug("[DEBUG " + get_current_time() + "]" + log_meg)
+        logger.debug("[DEBUG " + get_current_time() + "]" + log_msg)
         remove_handler('debug')
 
     @staticmethod
-    def info(log_meg):
+    def info(log_msg):
         set_handler('info')
-        logger.info("[INFO " + get_current_time() + "]" + log_meg)
+        logger.info("[INFO " + get_current_time() + "]" + log_msg)
         remove_handler('info')
 
     @staticmethod
-    def warning(log_meg):
+    def warning(log_msg):
         set_handler('warning')
-        logger.warning("[WARNING " + get_current_time() + "]" + log_meg)
+        logger.warning("[WARNING " + get_current_time() + "]" + log_msg)
         remove_handler('warning')
 
     @staticmethod
-    def error(log_meg):
+    def error(log_msg):
         set_handler('error')
-        logger.error("[ERROR " + get_current_time() + "]" + log_meg)
+        logger.error("[ERROR " + get_current_time() + "]" + log_msg)
         remove_handler('error')
 
     @staticmethod
-    def critical(log_meg):
+    def critical(log_msg):
         set_handler('critical')
-        logger.error("[CRITICAL " + get_current_time() + "]" + log_meg)
+        logger.error("[CRITICAL " + get_current_time() + "]" + log_msg)
         remove_handler('critical')
 
 

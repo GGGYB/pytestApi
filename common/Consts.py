@@ -17,4 +17,3 @@ STRESS_LIST = []
 
 # 接口执行结果list
 RESULT_LIST = []
-

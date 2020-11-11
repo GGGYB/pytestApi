@@ -1,5 +1,0 @@
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): 192.168.8.136:8000
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:433 http://192.168.8.136:8000 "POST /api/v1/user/login HTTP/1.1" 200 190
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): 192.168.8.136:8000
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:433 http://192.168.8.136:8000 "POST /api/v1/users HTTP/1.1" 500 118
-[1m[31mERROR   [0m root:Log.py:87 [ERROR 2020-11-06 17:24:01]statusCode error, expected_code is 200, statusCode is 500
