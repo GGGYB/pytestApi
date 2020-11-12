@@ -1,50 +1,70 @@
 [ {
-  "uid" : "9baf8ed172afee43",
+  "uid" : "f446f861fd027103",
+  "name" : "新增用户",
+  "time" : {
+    "start" : 1605177272565,
+    "stop" : 1605177272575,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c00ec9026a91e30",
+  "name" : "test_add_user01[2-/api/v1/users-{\"password\":\"55555\",\"password_confirm\":\"88888888\",\"username\":\"001\"}-{\"code\": 500, \"msg\": \"Key: userAddRequest.password Error:Field validation for password failed on the min tag\"}]",
+  "time" : {
+    "start" : 1605177272655,
+    "stop" : 1605177272663,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a7f0a73bd559daa",
+  "name" : "新增用户",
+  "time" : {
+    "start" : 1605177272584,
+    "stop" : 1605177272594,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31dddf990f8142a0",
+  "name" : "新增用户",
+  "time" : {
+    "start" : 1605177272603,
+    "stop" : 1605177272613,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f7a01ad9cb87b93",
+  "name" : "test_add_user01[1-/api/v1/users-{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}-{\"code\":500,\"msg\":\"userAddRequestpasswordError:Field validation for passwordfailed on therequiredtag\"}]",
+  "time" : {
+    "start" : 1605177272639,
+    "stop" : 1605177272648,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "500136814ce464d6",
+  "name" : "新增用户",
+  "time" : {
+    "start" : 1605177272621,
+    "stop" : 1605177272629,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81e334a0040e83d2",
   "name" : "test_001",
   "time" : {
-    "start" : 1605080495842,
-    "stop" : 1605080495842,
+    "start" : 1605177271910,
+    "stop" : 1605177271910,
     "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "742005864902a322",
-  "name" : "新增用户",
-  "time" : {
-    "start" : 1605080496390,
-    "stop" : 1605080496416,
-    "duration" : 26
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b084763f062cc71",
-  "name" : "新增用户",
-  "time" : {
-    "start" : 1605080496152,
-    "stop" : 1605080496180,
-    "duration" : 28
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "edd05c17ed9603b8",
-  "name" : "新增用户",
-  "time" : {
-    "start" : 1605080496199,
-    "stop" : 1605080496230,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8c6d5c828bff6b8",
-  "name" : "新增用户",
-  "time" : {
-    "start" : 1605080496245,
-    "stop" : 1605080496374,
-    "duration" : 129
   },
   "status" : "passed",
   "severity" : "normal"

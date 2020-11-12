@@ -1,5 +1,5 @@
 import requests
-from common.Cfg import *
+from common.cfg import *
 
 
 class Login(object):

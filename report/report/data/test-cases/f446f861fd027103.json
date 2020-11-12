@@ -1,0 +1,78 @@
+{
+  "uid" : "f446f861fd027103",
+  "name" : "新增用户",
+  "fullName" : "test_UserManage.TestUserManage#test_add_user",
+  "historyId" : "c924d1af9f5731140632195fad922bd1",
+  "time" : {
+    "start" : 1605177272565,
+    "stop" : 1605177272575,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6937800250272144",
+      "name" : "log",
+      "source" : "6937800250272144.txt",
+      "type" : "text/plain",
+      "size" : 607
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserManage"
+  }, {
+    "name" : "host",
+    "value" : "dadaxPC008"
+  }, {
+    "name" : "thread",
+    "value" : "15468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'"
+  }, {
+    "name" : "exp",
+    "value" : "'{\"code\":500,\"msg\":\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/v1/users'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f446f861fd027103.json",
+  "parameterValues" : [ "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'", "'{\"code\":500,\"msg\":\"Key:'userAddRequest.password'Error:Field validation for 'password' failed on the'required' tag\"}'", "'/api/v1/users'" ]
+}

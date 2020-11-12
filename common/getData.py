@@ -1,14 +1,37 @@
 import openpyxl
 from openpyxl import workbook
-def get_excel_data(sheetName,startRow,endRow,bodyColumn,expColumn):
+import sqlite3
+import pprint
+import json
+def get_excel_data(sheetName,startRow,endRow,urlColumn,bodyColumn,expColumn):
     fileDir = r"../data/pytestApi.xlsx"
     wb = openpyxl.load_workbook(fileDir)
-    sheet = wb.get_sheet_by_name(sheetName)
+    ws = wb.active
     dataList = []
     for i in range(startRow,endRow):
-        bodyCell = sheet.cell(row=startRow,column =bodyColumn ).value
-        expCell = sheet.cell(row=startRow,column =expColumn).value
-        dataList.append([bodyCell.strip(),expCell.strip()])
+        urlCell = ws.cell(row=startRow,column=urlColumn).value
+        bodyCell = ws.cell(row=startRow,column =bodyColumn ).value
+        expCell = ws.cell(row=startRow,column =expColumn).value
+        dataList.append([urlCell.strip(),bodyCell.strip(),expCell.strip()])
+    # print(dataList)
     return dataList
 
-get_excel_data("user",2,5,7,8)
+def get_db_data(db,table):
+    conn = sqlite3.connect(db)
+    cursor = conn.cursor()
+    sql = f'select * from {table}'
+    cursor.execute(sql)
+    values = cursor.fetchall()
+    pprint.pprint(values)
+    conn.commit()
+    cursor.close()
+    conn.close()
+    return values
+
+# a = get_excel_data("user",2,6,4,7,8)
+# b = type(a[0][1])
+# print(b)
+# print(a[0][1])
+# print(json.loads(b))
+
+get_db_data("../data/user","user")

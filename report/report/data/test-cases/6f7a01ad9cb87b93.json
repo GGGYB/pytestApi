@@ -1,0 +1,81 @@
+{
+  "uid" : "6f7a01ad9cb87b93",
+  "name" : "test_add_user01[1-/api/v1/users-{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}-{\"code\":500,\"msg\":\"userAddRequestpasswordError:Field validation for passwordfailed on therequiredtag\"}]",
+  "fullName" : "test_UserManage.TestUserManage#test_add_user01",
+  "historyId" : "af71f97b6d2c9ff24993c8dbefdd9a16",
+  "time" : {
+    "start" : 1605177272639,
+    "stop" : 1605177272648,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "be35e2d395633a2b",
+      "name" : "log",
+      "source" : "be35e2d395633a2b.txt",
+      "type" : "text/plain",
+      "size" : 359
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserManage"
+  }, {
+    "name" : "host",
+    "value" : "dadaxPC008"
+  }, {
+    "name" : "thread",
+    "value" : "15468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'"
+  }, {
+    "name" : "caseID",
+    "value" : "1"
+  }, {
+    "name" : "exp",
+    "value" : "'{\"code\":500,\"msg\":\"userAddRequestpasswordError:Field validation for passwordfailed on therequiredtag\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/v1/users'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f7a01ad9cb87b93.json",
+  "parameterValues" : [ "'{\"password\":\"\",\"password_confirm\": \"88888888\",\"username\":\"001\"}'", "1", "'{\"code\":500,\"msg\":\"userAddRequestpasswordError:Field validation for passwordfailed on therequiredtag\"}'", "'/api/v1/users'" ]
+}

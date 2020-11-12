@@ -24,7 +24,7 @@ class Assertions:
             return True
         except:
             self.log.error("statusCode error, expected_code is %s, statusCode is %s " % (expected_code, code))
-            Consts.RESULT_LIST.append('fail')
+            consts.RESULT_LIST.append('fail')
             raise
 
     def assert_body(self, body, body_msg, expected_msg):
@@ -37,7 +37,7 @@ class Assertions:
 
         except:
             self.log.error("Response body msg != expected_msg, expected_msg is %s, body_msg is %s" % (expected_msg,  body[body_msg]))
-            Consts.RESULT_LIST.append('fail')
+            consts.RESULT_LIST.append('fail')
 
             raise
 
@@ -57,7 +57,7 @@ class Assertions:
 
         except:
             self.log.error("Response body Does not contain expected_msg, expected_msg is %s" % expected_msg)
-            Consts.RESULT_LIST.append('fail')
+            consts.RESULT_LIST.append('fail')
 
             raise
 
@@ -74,7 +74,7 @@ class Assertions:
 
         except:
             self.log.error("Response body != expected_msg, expected_msg is %s, body is %s" % (expected_msg, body))
-            Consts.RESULT_LIST.append('fail')
+            consts.RESULT_LIST.append('fail')
 
             raise
 
@@ -91,7 +91,7 @@ class Assertions:
 
         except:
             self.log.error("Response time > expected_time, expected_time is %s, time is %s" % (expected_time, time))
-            Consts.RESULT_LIST.append('fail')
+            consts.RESULT_LIST.append('fail')
 
             raise
     def assert_in_dict(self,body,expBody):

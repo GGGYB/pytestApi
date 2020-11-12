@@ -1,0 +1,81 @@
+{
+  "uid" : "8c00ec9026a91e30",
+  "name" : "test_add_user01[2-/api/v1/users-{\"password\":\"55555\",\"password_confirm\":\"88888888\",\"username\":\"001\"}-{\"code\": 500, \"msg\": \"Key: userAddRequest.password Error:Field validation for password failed on the min tag\"}]",
+  "fullName" : "test_UserManage.TestUserManage#test_add_user01",
+  "historyId" : "6a8a3231d9fad295028b5e84b0fefe49",
+  "time" : {
+    "start" : 1605177272655,
+    "stop" : 1605177272663,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9d381a39024fa73",
+      "name" : "log",
+      "source" : "f9d381a39024fa73.txt",
+      "type" : "text/plain",
+      "size" : 359
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserManage"
+  }, {
+    "name" : "host",
+    "value" : "dadaxPC008"
+  }, {
+    "name" : "thread",
+    "value" : "15468-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_UserManage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "body",
+    "value" : "'{\"password\":\"55555\",\"password_confirm\":\"88888888\",\"username\":\"001\"}'"
+  }, {
+    "name" : "caseID",
+    "value" : "2"
+  }, {
+    "name" : "exp",
+    "value" : "'{\"code\": 500, \"msg\": \"Key: userAddRequest.password Error:Field validation for password failed on the min tag\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/v1/users'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c00ec9026a91e30.json",
+  "parameterValues" : [ "'{\"password\":\"55555\",\"password_confirm\":\"88888888\",\"username\":\"001\"}'", "2", "'{\"code\": 500, \"msg\": \"Key: userAddRequest.password Error:Field validation for password failed on the min tag\"}'", "'/api/v1/users'" ]
+}
